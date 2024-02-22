@@ -3,7 +3,7 @@ import { Box, Button, Heading, Stack, useColorModeValue } from "@chakra-ui/react
 import { FaArrowRight } from "react-icons/fa";
 
 const CTASection = () => {
-  const bg = useColorModeValue("blue.600", "blue.800");
+  const bg = useColorModeValue("brand.700", "brand.800");
 
   return (
     <Box w="full" p={10} bg={bg} color="white" textAlign="center" id="join">

@@ -4,8 +4,8 @@ import { FaArrowRight } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
-    <Flex align="center" justify="center" minHeight="100vh" p={4} id="home">
-      <VStack w="full" align="start" spacing={6} p={{ base: 4, md: 10 }}>
+    <Flex align="center" justify="center" minHeight="100vh" p={4} id="home" bg="brand.800">
+      <VStack w="full" align="start" spacing={6} p={{ base: 4, md: 10 }} color="accent.500">
         <Heading as="h1" size="4xl" fontWeight="bold">
           Discover. Connect. Enjoy.
         </Heading>

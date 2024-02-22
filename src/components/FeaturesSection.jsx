@@ -5,7 +5,7 @@ import { FaCamera, FaHeart, FaUsers } from "react-icons/fa";
 const Feature = ({ title, icon, children }) => {
   return (
     <VStack spacing={3}>
-      <Icon as={icon} w={10} h={10} color="blue.500" />
+      <Icon as={icon} w={10} h={10} color="accent.500" />
       <Text fontWeight="bold" fontSize="xl">
         {title}
       </Text>

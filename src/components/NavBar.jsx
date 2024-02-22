@@ -4,7 +4,7 @@ import { FaHome, FaInfoCircle, FaUserFriends } from "react-icons/fa";
 
 const NavBar = () => {
   return (
-    <Box as="nav" w="full" bg="blue.800" color="white" p={4}>
+    <Box as="nav" w="full" bg="brand.900" color="accent.500" p={4}>
       <Flex justify="space-between" align="center" maxWidth="container.xl" margin="0 auto">
         <Heading as="h1" size="lg">
           Verbatim
